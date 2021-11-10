@@ -85,6 +85,8 @@ class DMCast extends DM {
 // BONUS | 6a. In the DMCast subclass, create a static method called "create" that can be used to create a new DMCast object (HINT: The method will need parameters. Also, you need to use the return keyword)
 static create(t, m, c){
   return new DMCast(t, m, c);
+  // Can also use the "this" keyword
+  // return new this(t, m, c);
 }
 }
 // 5d. Using the NEW keyword, create a new object by passing in the same values from question 4c. However, pass in the following object for the value of the "cast" property {mulan: `Ming-Na Wen`, mushu: `Eddie Murphy`, shang: `BD Wong`, theEmperor: `Pat Morita`} and set the entire new created object to a const variable called mulan3
